@@ -137,8 +137,7 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
  
 STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
-STATICFILES_DIRS = [os.path.joint(BASE_DIR, 'static')]
-STATIC_ROOT = os.path.joint(BASE_DIR, 'staticfiles')
+STAICFILES_DIRS = [os.path.joint(BASE_DIR, 'static')]
 
 
 # Default primary key field type
